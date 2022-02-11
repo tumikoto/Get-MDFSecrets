@@ -125,8 +125,8 @@ function Get-MDFServers
 
     $model = @( [OrcaMDF.RawCore.Types.RawType]::Int("id"), 
                 [OrcaMDF.RawCore.Types.RawType]::Sysname("name")
-				[OrcaMDF.RawCore.Types.RawType]::Sysname("product") 
-				[OrcaMDF.RawCore.Types.RawType]::Sysname("provider") 
+		[OrcaMDF.RawCore.Types.RawType]::Sysname("product") 
+		[OrcaMDF.RawCore.Types.RawType]::Sysname("provider") 
                 [OrcaMDF.RawCore.Types.RawType]::Int("status")
                 [OrcaMDF.RawCore.Types.RawType]::DateTime("modate")
                 [OrcaMDF.RawCore.Types.RawType]::Sysname("catalog")
